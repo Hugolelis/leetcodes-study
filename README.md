@@ -38,6 +38,7 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 | Problem | File | Difficulty | Pattern |
 |---|---|---|---|
 | Two Sum | [challenges/two_sum.py](challenges/two_sum.py) | Easy | Hashing |
+| Palindrome Number | [challenges/palindrome_number.py](challenges/palindrome_number.py) | Easy | String Reversal |
 
 ---
 
@@ -53,7 +54,8 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 ```
 .
 ├── challenges/
-│   └── two_sum.py
+│   ├── two_sum.py
+│   └── palindrome_number.py
 └── README.md
 ```
 
@@ -62,7 +64,7 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 **Known limitations:**
 - No automated tests yet — solutions aren't verified against edge cases beyond manual checks.
 - No CLI or runner script to execute a specific problem by name.
-- Only one problem solved so far; the repo is in its early stages.
+- Only a couple of problems solved so far; the repo is in its early stages.
 
 ---
 
