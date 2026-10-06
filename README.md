@@ -39,6 +39,7 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 |---|---|---|---|
 | Two Sum | [challenges/two_sum.py](challenges/two_sum.py) | Easy | Hashing |
 | Palindrome Number | [challenges/palindrome_number.py](challenges/palindrome_number.py) | Easy | String Reversal |
+| Roman to Integer | [challenges/roman_to_integer.py](challenges/roman_to_integer.py) | Easy | Hashing |
 
 ---
 
@@ -55,7 +56,8 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 .
 ├── challenges/
 │   ├── two_sum.py
-│   └── palindrome_number.py
+│   ├── palindrome_number.py
+│   └── roman_to_integer.py
 └── README.md
 ```
 
