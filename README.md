@@ -28,7 +28,7 @@
 
 ## About
 
-This repository is a personal practice log for LeetCode problems, solved in Python. The goal isn't just to pass the test cases — it's deliberate practice: recognizing patterns (two pointers, sliding window, hashing, DP, graph traversal, etc.), reasoning about time/space complexity, and writing solutions that stay readable instead of golfed one-liners. Each problem lives in its own file so it can be run and tested in isolation.
+This repository is a personal practice log for LeetCode problems, solved in Python. The goal isn't just to pass the test cases. It's deliberate practice: recognizing patterns (two pointers, sliding window, hashing, DP, graph traversal, etc.), reasoning about time/space complexity, and writing solutions that stay readable instead of golfed one-liners. Each problem lives in its own file so it can be run and tested in isolation.
 
 ---
 
@@ -46,7 +46,7 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 ## Tech Stack
 
 - **Language:** Python 3
-- **Testing:** none yet — see [Known limitations](#architecture--design-decisions)
+- **Testing:** none yet, see [Known limitations](#architecture--design-decisions)
 
 ---
 
@@ -64,7 +64,7 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 **Why this shape:** all solutions live under `challenges/`, one file per problem named after its slug (e.g. `two_sum.py`), keeping the repo root clean and leaving room for future top-level content (notes, tests) without mixing it with solution code.
 
 **Known limitations:**
-- No automated tests yet — solutions aren't verified against edge cases beyond manual checks.
+- No automated tests yet: solutions aren't verified against edge cases beyond manual checks.
 - No CLI or runner script to execute a specific problem by name.
 - Only a couple of problems solved so far; the repo is in its early stages.
 
@@ -83,7 +83,7 @@ git clone https://github.com/hugolelis/leetcodes.git
 cd leetcodes
 ```
 
-No external dependencies — every solution uses only the Python standard library.
+No external dependencies: every solution uses only the Python standard library.
 
 ---
 
@@ -105,4 +105,4 @@ Distributed under the **MIT License**.
 
 ## Author
 
-**Hugo** — [GitHub](https://github.com/hugolelis)
+[Hugolelis](https://github.com/Hugolelis)
