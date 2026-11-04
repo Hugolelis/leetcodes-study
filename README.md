@@ -5,7 +5,6 @@
 <div align="left">
 
 [![License](https://img.shields.io/badge/License-MIT-1a1a2e?style=for-the-badge&logoColor=white)](LICENSE)
-[![Language](https://img.shields.io/badge/Language-Python-1a1a2e?style=for-the-badge&logoColor=white)]()
 [![Status](https://img.shields.io/badge/Status-In%20Development-1a1a2e?style=for-the-badge&logoColor=white)]()
 
 </div>
