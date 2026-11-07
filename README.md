@@ -18,8 +18,8 @@
 - [Architecture & Design Decisions](#architecture--design-decisions)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [License](#license)
 - [Author](#author)
+- [License](#license)
 
 </details>
 
@@ -98,12 +98,12 @@ python3 challenges/two_sum.py
 
 ---
 
-## License
-
-Distributed under the **MIT License**.
-
----
-
 ## Author
 
 [Hugolelis](https://github.com/Hugolelis)
+
+---
+
+## License
+
+Distributed under the **MIT License**.
