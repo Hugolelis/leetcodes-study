@@ -4,8 +4,8 @@
 
 <div align="left">
 
-[![License](https://img.shields.io/badge/License-MIT-0f766e?style=for-the-badge&labelColor=1a1a1a&logoColor=white)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Studying-52719d?style=for-the-badge&labelColor=1a1a1a&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT-0f766e?style=for-the-badge&labelColor=1a1a1a&logoColor=white)](LICENSE)
 
 </div>
 
