@@ -5,7 +5,7 @@
 <div align="left">
 
 [![Status](https://img.shields.io/badge/Status-Studying-52719d?style=for-the-badge&labelColor=1a1a1a&logoColor=white)]()
-[![License](https://img.shields.io/badge/License-MIT-0f766e?style=for-the-badge&labelColor=1a1a1a&logoColor=white)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-0f766e?style=for-the-badge&labelColor=1a1a1a&logoColor=white)]()
 
 </div>
 
@@ -46,6 +46,7 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 ## Tech Stack
 
 - **Language:** Python 3
+- **Dependencies:** none (standard library only)
 - **Testing:** none yet, see [Known limitations](#architecture--design-decisions)
 
 ---
@@ -62,12 +63,14 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 └── README.md
 ```
 
-**Why this shape:** all solutions live under `challenges/`, one file per problem named after its slug (e.g. `two_sum.py`), keeping the repo root clean and leaving room for future top-level content (notes, tests) without mixing it with solution code.
+Each file holds one `Solution` class in the LeetCode format, with its time complexity noted in the method's docstring, and a single `print` at the bottom that calls it with a sample input.
+
+**Why this shape:** all solutions live under `challenges/`, one file per problem named after its slug (e.g. `two_sum.py`), keeping the repo root clean and leaving room for future top-level content (notes, tests) without mixing it with solution code. The `Solution` class is kept as LeetCode expects it, so a solution can be pasted into the platform as is.
 
 **Known limitations:**
-- No automated tests yet: solutions aren't verified against edge cases beyond manual checks.
+- No automated tests yet: solutions are only checked by the single sample call at the bottom of each file.
 - No CLI or runner script to execute a specific problem by name.
-- Only a couple of problems solved so far; the repo is in its early stages.
+- Four problems solved so far (all Easy); the repo is in its early stages.
 
 ---
 
@@ -80,8 +83,8 @@ This repository is a personal practice log for LeetCode problems, solved in Pyth
 ### Installation
 
 ```bash
-git clone https://github.com/hugolelis/leetcodes.git
-cd leetcodes
+git clone https://github.com/Hugolelis/leetcodes-study.git
+cd leetcodes-study
 ```
 
 No external dependencies: every solution uses only the Python standard library.
@@ -90,11 +93,16 @@ No external dependencies: every solution uses only the Python standard library.
 
 ## Usage
 
-Each file is self-contained. Run it directly with Python:
+Each file is self-contained. Run it directly with Python and it prints the result of its sample call:
 
 ```bash
 python3 challenges/two_sum.py
 ```
+```
+[0, 1]
+```
+
+To try other inputs, edit the `print(...)` line at the bottom of the file.
 
 ---
 
